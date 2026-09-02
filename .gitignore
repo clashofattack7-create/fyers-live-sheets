@@ -1,0 +1,11 @@
+# Secrets & API keys — never commit
+.secrets.env
+service-account.json
+.google-token.json
+config.json
+*.token.json
+
+# Runtime output
+logs/
+__pycache__/
+*.py[cod]
